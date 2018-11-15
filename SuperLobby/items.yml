@@ -1,0 +1,61 @@
+# ###################################################################################################
+#  +----------------------------------------------------------------------------------------------+ #
+#  |    _____                       _           _     _           _____       _                   | #
+#  |   / ____|                     | |         | |   | |         |  __ \     | |                  | #
+#  |  | (___  _   _ _ __   ___ _ __| |     ___ | |__ | |__  _   _| |  | | ___| |_   ___  _____    | #
+#  |   \___ \| | | | '_ \ / _ \ '__| |    / _ \| '_ \| '_ \| | | | |  | |/ _ \ | | | \ \/ / _ \   | #
+#  |   ____) | |_| | |_) |  __/ |  | |___| (_) | |_) | |_) | |_| | |__| |  __/ | |_| |>  <  __/   | #
+#  |  |_____/ \__,_| .__/ \___|_|  |______\___/|_.__/|_.__/ \__, |_____/ \___|_|\__,_/_/\_\___|   | #
+#  |               | |                                       __/ |                                | #
+#  |               |_|                                      |___/                                 | #
+#  |                                                                                              | #
+#  |                                                                                              | #
+#  |  BUG REPORTS (Có thưởng): cstiwap@gmail.com                                                  | #
+#  |  Boss: AnDora                                                                                | #
+#  |  IP SERVER: is.dora.com                                                                      | #
+#  |                                                                                              | #
+#  +----------------------------------------------------------------------------------------------+ #
+# ###################################################################################################
+#                                                                                         
+#  +----------------------------------------------------------------------------------------------+ #
+#  |                                          Nodes                                               | #
+#  +----------------------------------------------------------------------------------------------+ #
+#  |                                                                                              | #
+#  |  name: The name of the item.                                                                 | #
+#  |  id: The id of the item material (https://www.minecraftinfo.com/idlist.htm).                 | #
+#  |  data: Information that the command will show.                                               | #
+#  |  slot: Value of the material type of the item.                                               | #
+#  |  skull: To use heads with skin. (url:address.png | textures: <Base64 code> | <player>)       | #r
+#  |  commands: Command that is executed when clicking.  (SERVER, PLAYER, CONSOLE, OP,            | #
+#  |     BROADCAST, GIVE, MONEY, POINTS, TELL,OPEN).                                              | #
+#  |  delay: Waiting time to reuse the item. Place -1 to disable.                                 | #
+#  |  lore: The description of the item.                                                          | #
+#  |  permission: Permission to use the item.                                                     | #
+#  |  enchant-glow: To add enchantment colors to the items. default false                         | #
+#  |  version-check: To check if it is the correct version of minecraft.                          | # |                    default false (Requires ViaVersion)                                       | # |  version-list: List of versions to check in check version.                                   | # |  no-version-message: Message to show if the version is not compatible.                       | # |                      Use <version> to show compatible versions in the message.               | # |                                                                                              | #
+#  |                                                                                              | #
+#  |                                                                                              | #
+#  +----------------------------------------------------------------------------------------------+ #
+# 
+#  +----------------------------------------------------------------------------------------------+ #
+#  | To create more elements, simply copy the previous one and paste it in an empty place..       | #
+#  +----------------------------------------------------------------------------------------------+ #
+menu:
+  name: '&f<10> &5Game Modes &f<10> &7(Right button)'
+  id: 335
+  data: 0
+  slot: 1
+  commands:
+  - 'player: menu'
+  delay: 5
+  permission: superlobby.items.menu
+skull:
+  name: '&f<10> &5Profile &a<player> &f<10> &7(Right button)'
+  id: 397
+  data: 3
+  slot: 2
+  skull: <player>
+  commands:
+  - 'player: profile'
+  delay: 5
+  permission: superlobby.items.skull

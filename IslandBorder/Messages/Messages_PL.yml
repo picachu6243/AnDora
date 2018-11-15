@@ -1,0 +1,29 @@
+NoPermission: '&cNie masz uprawnień do tej komendy!'
+NoCommandsInConsole: '&cKomenda nie jest dostępna w konsoli!'
+ISBorder:
+  Help:
+  - '&7&m----------------&r &aPomoc Island Border &7&m----------------&r'
+  - '&f/ISBorder &8(&7Wyświetla GUI do Island Border&8)'
+  - '&f/ISBorder Toggle &8(&7Włącza/Wyłącza Border&8)'
+  - '&f/ISBorder On/Off &8(&7Włącza/Wyłącza Border&8)'
+  - '&f/ISBorder Reload &8(&7ponownie ładuje wiadomości i gui&8)'
+  - '&f/ISBorder SetColor <Blue, Red, Green> &8(&7Zmienia kolor obramowania&8)'
+  - '&7&m----------------------------------------------------&r'
+  Toggle:
+    'On': '&7Border został włączony'
+    'Off': '&7Border został wyłączony'
+  AlreadyToggledOn: '&7Twój Border jest aktualnie włączony'
+  AlreadyToggledOff: '&7Twój border jest aktualnie wyłączony'
+  PlaceholderAPI:
+    Activated: '&aAktywny'
+    Deactivated: '&cNieaktywny'
+  Reload: '&7Island Border został pomyślnie przeładowany!'
+  NotOnIsland: '&7Komenda dostępna tylko na wyspie'
+  BorderColor:
+    Red: '&cCzerwony'
+    Green: '&aZielony'
+    Blue: '&bNiebieski'
+    Changed: '&7Kolor granicy wyspy został zmieniony!'
+    SameBorderColor: '&7Nie można zmienić koloru obramowania o tym samym kolorze!'
+    NoPermission: '&7Nie masz uprawnień do używania tego koloru obramowania!'
+  Cooldown: '&7Musisz poczekać 5 sekund, zanim ponownie zmienisz granicę!'

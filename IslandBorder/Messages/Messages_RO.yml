@@ -1,0 +1,29 @@
+NoPermission: '&cNu ai access la aceasta comanda!'
+NoCommandsInConsole: '&cComenzile nu sunt valabile in consola!'
+ISBorder:
+  Help:
+  - '&7&m----------------&r &aAjutor Island Border &7&m----------------&r'
+  - '&f/ISBorder &8(&7GUI pentru Island Border&8)'
+  - '&f/ISBorder Toggle &8(&7Modifica Border-ul&8)'
+  - '&f/ISBorder On/Off &8(&7Modifica Border-ul On/Off&8)'
+  - '&f/ISBorder Reload &8(&7Reincarca Mesajele & gui&8)'
+  - '&f/ISBorder SetColor <Blue, Red, Green> &8(&7Modifica culoarea Border-ului&8)'
+  - '&7&m----------------------------------------------------&r'
+  Toggle:
+    'On': '&7Border-ul tau a fost activat'
+    'Off': '&7Border-ul tau a fost dezactivat'
+  AlreadyToggledOn: '&7Border-ul tau este deja activat'
+  AlreadyToggledOff: '&7Border-ul tau este deja dezactivat'
+  PlaceholderAPI:
+    Activated: '&aActivat'
+    Deactivated: '&cDezactivat'
+  Reload: '&7Island Border a fost reincarcat cu success!'
+  NotOnIsland: '&7Aceasta comanda este valabila doar pe insula'
+  BorderColor:
+    Red: '&cRosu'
+    Green: '&aVerde'
+    Blue: '&bAlbastru'
+    Changed: '&7Culoarea Border-ului a fost schimbata!'
+    SameBorderColor: '&7Nu poti pune aceasi culoare la Border!'
+    NoPermission: '&7Nu ai permisiune pentru a folosi aceasta culoare!'
+  Cooldown: '&7Trebuie sa astepti 5 secunde pana poti modifica border-ul din nou!'

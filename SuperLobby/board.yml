@@ -1,0 +1,117 @@
+# ###################################################################################################
+#  +----------------------------------------------------------------------------------------------+ #
+#  |    _____                       _           _     _           _____       _                   | #
+#  |   / ____|                     | |         | |   | |         |  __ \     | |                  | #
+#  |  | (___  _   _ _ __   ___ _ __| |     ___ | |__ | |__  _   _| |  | | ___| |_   ___  _____    | #
+#  |   \___ \| | | | '_ \ / _ \ '__| |    / _ \| '_ \| '_ \| | | | |  | |/ _ \ | | | \ \/ / _ \   | #
+#  |   ____) | |_| | |_) |  __/ |  | |___| (_) | |_) | |_) | |_| | |__| |  __/ | |_| |>  <  __/   | #
+#  |  |_____/ \__,_| .__/ \___|_|  |______\___/|_.__/|_.__/ \__, |_____/ \___|_|\__,_/_/\_\___|   | #
+#  |               | |                                       __/ |                                | #
+#  |               |_|                                      |___/                                 | #
+#  |                                                                                              | #
+#  |                                                                                              | #
+#  |  BUG REPORTS (Có thưởng): cstiwap@gmail.com                                                  | #
+#  |  Boss: AnDora                                                                                | #
+#  |  IP SERVER: is.dora.com                                                                      | #
+#  |                                                                                              | #
+#  +----------------------------------------------------------------------------------------------+ #
+# ###################################################################################################
+# 
+#  +----------------------------------------------------------------------------------------------+ #
+#  | For a detailed explanation of the configuration see this page.                               | #
+#  | http://en.wiki.pedrojm96.com/wiki/SuperLobbyDeluxe:board.yml                                 | #
+#  +----------------------------------------------------------------------------------------------+ #
+settings-enable: true
+settings-world:
+- world
+- lobby
+- hub
+settings-update-title: 3
+settings-title:
+- '&7< &6&lDORAISLAND &7>'
+- '&7< &6&lDORAISLAND &7>'
+- '&7< &6&lDORAISLAND &7>'
+- '&7> &6&lDORAISLAND &7<'
+- '&7> &6&lRAISLA &7<'
+- '&7> &6&lIS &7<'
+- '&7> &7<'
+- '&7< &6&lIS &7>'
+- '&7< &6&lRAISLA &7>'
+- '&7< &6&lDORAISLAND &7>'
+- '&7< &6&lDORAISLAND &7>'
+- '&7< &e&lD&6&ORAISLAND &7>'
+- '&7< &6&lD&E&lu&6&lRAISLAND &7>'
+- '&7< &6&lDO&R&lp&6&AISLAND &7>'
+- '&7< &6&lDOR&A&A&6&lISLAND &7>'
+- '&7< &6&lDORA&A&lI&6&lSLAND &7>'
+- '&7< &6&lDORAI&e&lL&6&SLAND &7>'
+- '&7< &6&lDORAIS&e&lo&6&lAND &7>'
+- '&7< &6&lDORAISL&e&lb&6&lND &7>'
+- '&7< &6&lDORAISLA&e&lb&6&lD &7>'
+- '&7< &6&lDORAISLAN&e&lD &7>'
+board:
+  line1:
+    content:
+    - '&6&m------------------'
+    update: 1000
+  line2:
+    content:
+    - '&6&l> &a&lName:'
+    - '&6&l> &a&lNick:'
+    update: 120
+  line3:
+    content:
+    - '#&7<player>'
+    - '#&7<displayname>'
+    update: 120
+  line4:
+    content:
+    - ' '
+    update: 1000
+  line5:
+    content:
+    - '&aX &7<player-x> &aY &7<player-y> &aZ &7<player-z>'
+    update: 1
+  line6:
+    content:
+    - '  '
+    update: 1000
+  line7:
+    content:
+    - '&6&l> &a&lRank:'
+    update: 1000
+  line8:
+    content:
+    - '#&7<rank>'
+    update: 120
+  line9:
+    content:
+    - '   '
+    update: 1000
+  line10:
+    content:
+    - '&6&m------------------'
+    update: 1000
+  line11:
+    content:
+    - '&eBuy you rank in y&7_'
+    - '&euy you rank in yo&8_'
+    - '&ey you rank in you&7_'
+    - '&e you rank in yous&8_'
+    - '&eyou rank in youse&7_'
+    - '&eou rank in youser&8_'
+    - '&eu rank in youserv&7_'
+    - '&e rank in youserve&8_'
+    - '&erank in youserver&7_'
+    - '&eank in youservern&8_'
+    - '&enk in youserverna&7_'
+    - '&ek in youservernam&8_'
+    - '&e in youservername&7_'
+    - '&ein youservername.&8_'
+    - '&en youservername.c&7_'
+    - '&e youservername.co&8_'
+    - '&eyouservername.com&7_'
+    - '&6youservername.com&8_'
+    - '&eyouservername.com&7_'
+    - '&6youservername.com&8_'
+    update: 10

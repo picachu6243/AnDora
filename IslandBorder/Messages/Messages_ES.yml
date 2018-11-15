@@ -1,0 +1,29 @@
+NoPermission: '&c¡No tiene permiso para ejecutar ese comando!'
+NoCommandsInConsole: '&c¡Ese Comando solo puede ser usado en la Consola!'
+ISBorder:
+  Help:
+  - '&7&m----------------&r &aCmds Island Border &7&m----------------&r'
+  - '&f/ISBorder &8(&7GUI De Configuración de el Borde&8)'
+  - '&f/ISBorder Toggle &8(&7Activa/Desactiva la Borde&8)'
+  - '&f/ISBorder On/Off On/Off &8(&7Activa o Desactiva el Borde de la Isla On/Off&8)'
+  - '&f/ISBorder Reload &8(&7Recargas los Mensajes y el GUI&8)'
+  - '&f/ISBorder SetColor <Blue, Red, Green> &8(&7Cambias el Color de el Borde&8)'
+  - '&7&m----------------------------------------------------&r'
+  Toggle:
+    'On': '&7Tu Borde ha sido Activado'
+    'Off': '&7Tu Borde fue removido'
+  AlreadyToggledOn: '&7Tu Borde ya está Activado'
+  AlreadyToggledOff: '&7Tu Borde ya está Desactivado'
+  PlaceholderAPI:
+    Activated: '&aActivado'
+    Deactivated: '&cDesactivado'
+  Reload: '&7¡El Plugin Island Border fue recargado exitosamente!'
+  NotOnIsland: '&7El Comando solo puede ser usado en una Isla'
+  BorderColor:
+    Red: '&cRojo'
+    Green: '&aVerde'
+    Blue: '&bAzul'
+    Changed: '&7¡El Color de tu Borde fue cambiado!'
+    SameBorderColor: '&7¡No puedes cambiar el color del Borde al Mismo color!'
+    NoPermission: '&7¡No tienes permiso para usar este color de borde!'
+  Cooldown: '&7¡Espera 5 segundos para modificar tu Borde nuevamente!'
