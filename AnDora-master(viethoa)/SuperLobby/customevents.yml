@@ -1,0 +1,63 @@
+# ###################################################################################################
+# # +----------------------------------------------------------------------------------------------+ #
+#  |    _____                       _           _     _           _____       _                   | #
+#  |   / ____|                     | |         | |   | |         |  __ \     | |                  | #
+#  |  | (___  _   _ _ __   ___ _ __| |     ___ | |__ | |__  _   _| |  | | ___| |_   ___  _____    | #
+#  |   \___ \| | | | '_ \ / _ \ '__| |    / _ \| '_ \| '_ \| | | | |  | |/ _ \ | | | \ \/ / _ \   | #
+#  |   ____) | |_| | |_) |  __/ |  | |___| (_) | |_) | |_) | |_| | |__| |  __/ | |_| |>  <  __/   | #
+#  |  |_____/ \__,_| .__/ \___|_|  |______\___/|_.__/|_.__/ \__, |_____/ \___|_|\__,_/_/\_\___|   | #
+#  |               | |                                       __/ |                                | #
+#  |               |_|                                      |___/                                 | #
+#  |                                                                                              | #
+#  |                                                                                              | #
+#  |    WIKI:                                                                           | #
+#  |  BUG REPORTS: cstiwap@gmail.com                                                              | #
+#  |  ADMIN: AnDora                                                                               | #
+#  |  OFFICIAL SERVER: island.dora.com                                                            | #
+#  |                                                                                              | #
+#  +----------------------------------------------------------------------------------------------+ #
+# ###################################################################################################
+# 
+#  +----------------------------------------------------------------------------------------------+ #
+#  |                                          Nodes                                               | #
+#  +----------------------------------------------------------------------------------------------+ #
+#  |                                                                                              | #
+#  |  permission: Permission for the event to work.                                               | #
+#  |  join-message: Message when entering the server. Place "none" to not send any message.       | #
+#  |  quit-message: Message when leaving the server. Place "none" to not send any message.        | #
+#  |  join-firework: Fireworks when entering the server. Use random or (https://goo.gl/11ZwHx).   | #
+#  |  join-sound: Sound when entering the server. (https://goo.gl/7xQxqE).                        | #
+#  |                                                                                              | #
+#  |                                                                                              | #
+#  +----------------------------------------------------------------------------------------------+ #
+# 
+#  +----------------------------------------------------------------------------------------------+ #
+#  | To add a new group simply copy and paste in a new place.                                     | #
+#  | The order is very important while higher up is the group's priority.                         | #
+#  +----------------------------------------------------------------------------------------------+ #
+owner:
+  permission: superlobby.owner
+  join-message: '<blue> or &9 &eBoss &a<player> &eđã vào server!'
+  quit-message: '<blue> or &9 &eBoss &c<player> &eđã out server!'
+  join-firework: random, 5
+  join-gamemode: creative
+  join-sound: ENTITY_GENERIC_EXPLODE
+silent:
+  permission: superlobby.staff
+  join-message: none
+  quit-message: none
+vip++:
+  permission: superlobby.vip++
+  join-message: '&b#VIP++ &a<player> &evào rồi nè!'
+  quit-message: '&b#VIP++ &c<player> &eđã bay hơi!'
+  join-firework: random, 5
+  join-sound: ENTITY_GENERIC_EXPLODE
+vip:
+  permission: superlobby.vip
+  join-message: '&b#VIP &a<player> &evào rồi nè!'
+  quit-message: '&b#VIP &c<player> &eđã bay hơi!'
+  join-firework: random, 5
+default:
+  permission: superlobby.default
+  join-message: '&a<player> &evào rồi nè!'
+  quit-message: '&c<player> &eđã bay hơi!'

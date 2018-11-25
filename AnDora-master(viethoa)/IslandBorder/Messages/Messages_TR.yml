@@ -1,0 +1,29 @@
+NoPermission: '&cBu Komut İçin Yetkin YOK!'
+NoCommandsInConsole: '&cBunu Sadece Oyuncular Yapabilir!'
+ISBorder:
+  Help:
+  - '&7&m----------------&r &aAda Sınırı Belirteci &7&m----------------&r'
+  - '&f/ISBorder &8(&7Ada Sınırı Belirteci Menüsünü Açar&8)'
+  - '&f/ISBorder Toggle &8(&7Ada Sınırı Belirtecini Kapatır&8)'
+  - '&f/ISBorder On/Off On/Off &8(&7Ada Sınırı Belirtecini Ayarlar&8)'
+  - '&f/ISBorder Reload &8(&7Ada Sınırı Belirteci Eklentisini Yeniler&8)'
+  - '&f/ISBorder SetColor <Blue, Red, Green> &8(&7Ada Sınırı Belirteci Rengini Değiştirir&8)'
+  - '&7&m----------------------------------------------------&r'
+  Toggle:
+    'On': '&7Ada Sınırı Belirtecin Aktif Edildi'
+    'Off': '&7Ada Sınırı Belirtecin Kapatıldı'
+  AlreadyToggledOn: '&7Ada Sınırı Belirtecin Zaten Aktif'
+  AlreadyToggledOff: '&7Ada Sınırı Belirtecin Zaten Kapalı'
+  PlaceholderAPI:
+    Activated: '&aAktif'
+    Deactivated: '&cKapalı'
+  Reload: '&7Ada Sınırı Belirteci İçin Spawn Ayarlandı'
+  NotOnIsland: '&7Bu Komutu Sadece Ada Kullanabilirsin'
+  BorderColor:
+    Red: '&cKırmızı'
+    Green: '&aYeşil'
+    Blue: '&bMavi'
+    Changed: '&7Ada Sınırı Belirtecinin Rengi Değiştirildi!'
+    SameBorderColor: '&7Ada Sınırı Belirtecin Zaten İstediğin Renkte!'
+    NoPermission: '&7Bu kenarlık rengini kullanma izniniz yok!'
+  Cooldown: '&7Sınırınızı değiştirmeden önce 5 saniye beklemeniz gerek!'

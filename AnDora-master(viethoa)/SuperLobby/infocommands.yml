@@ -1,0 +1,92 @@
+# ###################################################################################################
+#  +----------------------------------------------------------------------------------------------+ #
+#  |    _____                       _           _     _           _____       _                   | #
+#  |   / ____|                     | |         | |   | |         |  __ \     | |                  | #
+#  |  | (___  _   _ _ __   ___ _ __| |     ___ | |__ | |__  _   _| |  | | ___| |_   ___  _____    | #
+#  |   \___ \| | | | '_ \ / _ \ '__| |    / _ \| '_ \| '_ \| | | | |  | |/ _ \ | | | \ \/ / _ \   | #
+#  |   ____) | |_| | |_) |  __/ |  | |___| (_) | |_) | |_) | |_| | |__| |  __/ | |_| |>  <  __/   | #
+#  |  |_____/ \__,_| .__/ \___|_|  |______\___/|_.__/|_.__/ \__, |_____/ \___|_|\__,_/_/\_\___|   | #
+#  |               | |                                       __/ |                                | #
+#  |               |_|                                      |___/                                 | #
+#  |                                                                                              | #
+#  |                                                                                              | #
+#  |  BUG REPORTS (Có thưởng): cstiwap@gmail.com                                                  | #
+#  |  Boss: AnDora                                                                                | #
+#  |  IP SERVER: is.dora.com                                                                      | #
+#  |                                                                                              | #
+#  +----------------------------------------------------------------------------------------------+ #
+# ###################################################################################################
+#                                                                                         
+#  +----------------------------------------------------------------------------------------------+ #
+#  |                                          Nodes                                               | #
+#  +----------------------------------------------------------------------------------------------+ #
+#  |                                                                                              | #
+#  |  command: Command to work.                                                                   | #
+#  |  permission: Permission to execute the command..                                             | #
+#  |  info: Information that the command will show.                                               | #
+#  |                                                                                              | #
+#  |                                                                                              | #
+#  +----------------------------------------------------------------------------------------------+ #
+# 
+#  +----------------------------------------------------------------------------------------------+ #
+#  | To add more commands simply copy and paste in an empty place.                                | #
+#  +----------------------------------------------------------------------------------------------+ #
+Info:
+  command: info
+  permission: superlobby.info
+  info:
+  - '&a&m<-=-----------------&r &bYourserver &b&m-----------------=->'
+  - '&a- &7Để biết thông tin menu &b/menu'
+  - '&a- &7Chế độ chơi &b/server'
+  - '&a- &7Nhận phần thưởng miễn phí &b/rewards'
+  - '&a- &7Để xem danh sách các lệnh lệnh cơ bản &b/help'
+  - '&a- &7Để biết thông tin xếp hạng &b/ranks'
+  - '&a- &7Để nhận thông tin về Youtubers, hãy nhập &b/youtubers'
+  - '&a- &7Để biết thông tin về các quy tắc, hãy nhập &b/rules'
+  - '&a- &7Để biết thông tin về cộng đồng của chúng tôi &b/socialpages'
+  - '&a&m---------------------------------------------------'
+Youtubers:
+  command: youtubers
+  permission: superlobby.youtubers
+  info:
+  - '&a&m<-=-----------------&r &bYourserver &b&m-----------------=->'
+  - '&7Nếu bạn là youtuber đáp ứng các yêu cầu sau, bạn có thể có một
+    trong những điều sau đây, hoàn toàn miễn phí!'
+  - '&6-[&a&lMiniYT&6]-'
+  - '&a>> &6Yêu cầu: &7Có hơn 300 người đăng ký trong kênh của bạn.'
+  - '&a>> &6Điều kiện: &7Tải lên 3 server videos trên kênh của bạn mỗi tháng.'
+  - '&a>> &6Mất quyền: &7Nếu bạn đã xóa video hoặc không đáp ứng vào cuối
+    tháng, xếp hạng sẽ bị xóa.'
+  - '&a>> &6Thời hạn: &71 tháng. Nó có thể được gia hạn trong khi bạn đáp ứng các điều kiện'
+  - '&6-[&a&lYoutuber&6]-'
+  - '&a>> &6Yêu cầu: &7Có hơn 1000 người đăng ký trong kênh của bạn.'
+  - '&a>> &6Điều kiện: &7Tải lên 1 server video trên kênh của bạn mỗi tháng.'
+  - '&a>> &6Mất quyền: &7Nếu người dùng xóa video hoặc không gặp nhau ở cuối
+    tháng, xếp hạng sẽ bị xóa.'
+  - '&a>> &6Thời hạn: &71 tháng. Nó có thể được gia hạn trong khi bạn đáp ứng các điều kiện'
+  - '&a&m---------------------------------------------------'
+socialpages:
+  command: socialpages
+  permission: superlobby.socialpages
+  info:
+  - '&a&m<-=-----------------&r &bYourserver &b&m-----------------=->'
+  - '&a- &7facebook page: yourfacebook'
+  - '&a- &7facebook group: yourfacebook'
+  - '&a- &7forum: yourforum'
+  - '&a- &7web: yourweb'
+  - '&a- &7youtuber: yourchanel'
+  - '&a&m---------------------------------------------------'
+rules:
+  command: rules
+  permission: superlobby.rules
+  info:
+  - '&a&m<-=-----------------&r &bYourserver &b&m-----------------=->'
+  - '&a- &7your server rules'
+  - '&a&m---------------------------------------------------'
+help:
+  command: help
+  permission: superlobby.help
+  info:
+  - '&a&m<-=-----------------&r &bYourserver &b&m-----------------=->'
+  - '&a- &7your server HELP '
+  - '&a&m---------------------------------------------------'

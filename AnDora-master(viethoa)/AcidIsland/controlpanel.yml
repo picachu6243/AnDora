@@ -1,0 +1,59 @@
+# Control panel file
+# For colors in panel name use &. Note client must restart if changes made as it caches inventory.
+# [island] refers to the island command, e.g., /island
+# material format is MATERIAL:DURABILITY where DURABILITY is optional
+# description can include color codes using & and new lines using |
+
+default:
+  panelname: '&2Câu &3Lệnh'
+  buttons:
+    0:
+      material: GRASS
+      description: 'Tới hòn đảo của bạn'
+      command: '[island] go'
+      nextsection: ''
+    1:
+      material: LAVA_BUCKET
+      description: 'Mở minishop'
+      command: '[island] ms'
+      nextsection: ''
+    2:
+      material: SKULL_ITEM
+      description: 'Liệt kê thành viên trong nhóm'
+      command: '[island] team'
+      nextsection:
+    3:
+      material: BED
+      description: 'Đặt nhà của bạn ở đây'
+      command: '[island] sethome'
+      nextsection:
+    4:
+      material: ACACIA_STAIRS
+      description: 'Cấp đảo'
+      command: '[island] level'
+      nextsection:
+    5:
+      material: BOOK
+      description: 'Danh sách 10 đảo hàng đầu'
+      command: '[island] top'
+      nextsection:
+    6:
+      material: SIGN
+      description: 'Liệt kê warps có sẵn'
+      command: '[island] warps'
+      nextsection:
+    7:
+      material: BEDROCK
+      description: 'Tới thế giới spawn'
+      command: '[island] spawn'
+      nextsection:
+    8:
+      material: SAPLING
+      description: 'Thay đổi biome'
+      command: '[island] biomes'
+      nextsection: ''
+    9:
+      material: ENCHANTMENT_TABLE
+      description: 'Thách thức'
+      command: 'aic'
+      nextsection: ''

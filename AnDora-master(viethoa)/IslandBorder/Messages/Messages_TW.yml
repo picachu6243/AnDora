@@ -1,0 +1,29 @@
+NoPermission: '&c你沒有權限使用該指令!'
+NoCommandsInConsole: '&c無法在控制台中使用該指令!'
+ISBorder:
+  Help:
+  - '&7&m----------------&r &a島嶼邊界教學 &7&m----------------&r'
+  - '&f/ISBorder &8(&7打開邊界設定選單&8)'
+  - '&f/ISBorder Toggle &8(&7切換邊界開關&8)'
+  - '&f/ISBorder On/Off &8(&7開啟或關閉邊界&8)'
+  - '&f/ISBorder Reload &8(&7重新加載插件信息和選單&8)'
+  - '&f/ISBorder SetColor <Blue, Red, Green> &8(&7更改邊界顏色&8)'
+  - '&7&m----------------------------------------------------&r'
+  Toggle:
+    'On': '&7你開啟了邊界'
+    'Off': '&7你關閉了邊界'
+  AlreadyToggledOn: '&7你的邊界已經在開啟狀態了'
+  AlreadyToggledOff: '&7你的邊界已經在關閉狀態了'
+  PlaceholderAPI:
+    Activated: '&a開啟'
+    Deactivated: '&c關閉'
+  Reload: '&7Island Border 已成功重新加載!'
+  NotOnIsland: '&7該指令只能在島嶼中使用'
+  BorderColor:
+    Red: '&c紅色'
+    Green: '&a綠色'
+    Blue: '&b藍色'
+    Changed: '&7邊間顏色已改變!'
+    SameBorderColor: '&7你不能更換相同顏色!'
+    NoPermission: '&7您無權使用此邊框顏色!'
+  Cooldown: '&7您必須等待5秒才能再次修改邊框！'

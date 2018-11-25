@@ -1,0 +1,11 @@
+no-points: '&cBạn cần {points} điểm player cho điều này.'
+no-open-permission: '&cBạn không được phép &e{permission} &cđể sử dụng menu này.'
+default-no-icon-permission: '&cBạn không có quyền cho icon này.'
+open-menu: '&aMở menu "{menu}".'
+no-exp: '&cBạn cần {levels} XP levels cho điều này.'
+menu-not-found: '&cKhông tìm thấy menu! Vui lòng thông báo cho nhân viên.'
+no-money: '&cBạn cần {money}$ cho điều này.'
+no-required-item: '&cBạn phải có &e{amount}x {material} &c(ID: {id}, giá trị dữ liệu:
+  {datavalue}) cho điều này.'
+open-menu-others: '&aMở menu "{menu}" đến {player}.'
+any: any

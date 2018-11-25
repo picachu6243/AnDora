@@ -1,0 +1,13 @@
+# #####################
+# # Author: [TrexsMC] #
+# #####################
+Interval: 60
+Prefix: '&a>>>&cAM&a<<<'
+Message:
+  SuccessfulReload: '&6Đã khởi động lại cấu hình thành công'
+  NotPermission: '&6Không có quyền sử dụng lệnh này'
+  CommandHelp: '&6Sử dụng lệnh /am reload reload the config.yml'
+Messages:
+- '&b&lChào mọi người'
+- '&a&lChào mọi người'
+- '&c&lChào mọi người'

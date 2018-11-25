@@ -1,0 +1,204 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&1Example menu'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling; tell: &eYou opened the example menu.'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+spawncmd:
+  COMMAND: 'spawn'
+  NAME: '&e/spawn'
+  LORE:
+    - 'It justs executes /spawn'
+    - 'as the player who clicked.'
+  ID: bed
+  POSITION-X: 1
+  POSITION-Y: 1
+
+
+colored-enchanted-stacked-wool:
+  NAME: '&aLen có dữ liệu bổ sung'
+  LORE:
+    - 'Len này có giá trị dữ liệu, một lượng'
+    - 'lớn hơn 1, và hai sự mê hoặc.'
+  ID: wool
+  DATA-VALUE: 1
+  AMOUNT: 10
+  ENCHANTMENT: knockback, 10; durability, 10
+  POSITION-X: 2
+  POSITION-Y: 1
+
+
+this-text-will-not-appear:
+  NAME: '&dFormatting codes'
+  LORE:
+    - 'Bạn có thể sử dụng tất cả the formatting codes!'
+    - '&fMàu sắc: &c#c &a#a &9#9 &e#e &f... ...'
+    - '&fNgẫu nhiên (#k): &kfy379!H'
+    - '&fDũng cảm (#l): &lexample'
+    - '&fĐường gạch ngang (#m): &mexample'
+    - '&fGạch dưới (#n): &nexample'
+    - '&fNghiêng (#o): &oexample'
+  ID: paper
+  POSITION-X: 3
+  POSITION-Y: 1
+
+
+test-from-console:
+  COMMAND: 'console: say Hello {player}!'
+  NAME: '&cChạy lệnh từ the console.'
+  LORE:
+    - 'Nó phát tên của bạn bằng lệnh /say.'
+  ID: command block
+  POSITION-X: 4
+  POSITION-Y: 1
+
+
+test-as-op:
+  COMMAND: 'op: say Hello world!'
+  NAME: '&cChạy lệnh dưới dạng OP.'
+  LORE:
+    - 'Hãy cẩn thận với loại lệnh này.'
+    - 'Nó sẽ bỏ qua gần như tất cả các điều khoản.'
+  ID: command block
+  POSITION-X: 5
+  POSITION-Y: 1
+
+
+test-with-placeholder:
+  COMMAND: 'tell: &9Online players: &f{online}/{max_players}; tell: &9Your name: &f{player}; tell: &9The world you are in: &f{world}; tell: &9Money: &f{money}'
+  NAME: '&6Thông báo này chứa một số trình giữ chỗ'
+  LORE:
+    - 'Trình giữ chỗ sẽ được thay thế khi mục'
+    - 'được nhấp.'
+  ID: empty map
+  POSITION-X: 6
+  POSITION-Y: 1
+
+
+economy-give:
+  COMMAND: 'tell: &aYou have paid 50$ for this command!; give: gold_ingot'
+  NAME: '&eKinh tế & lệnh cho'
+  LORE:
+    - 'Lệnh này sẽ được thực hiện'
+    - 'chỉ khi bạn có ít nhất 50 $!'
+    - 'Nó mang lại cho bạn một thỏi vàng.'
+  ID: gold ingot
+  PRICE: 50
+  POSITION-X: 7
+  POSITION-Y: 1
+
+
+economy-take:
+  REQUIRED-ITEM: 'gold_ingot'
+  COMMAND: 'tell: &aYou have been paid 50$; givemoney: 50'
+  NAME: '&eKinh tế & mục bắt buộc'
+  LORE:
+    - 'Lệnh này ngược lại với lệnh trước.'
+    - 'Nó sẽ đưa bạn một thỏi vàng và cung cấp cho bạn 50 đô la.'
+  ID: gold ingot
+  POSITION-X: 8
+  POSITION-Y: 1
+
+
+will-not-close:
+  NAME: '&2Info'
+  LORE:
+    - '&7Menu sẽ không đóng'
+    - '&7nhấp vào mục này.'
+  ID: sign
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+
+a-talking-head:
+  COMMAND: 'tell: This is a simple message, without using commands!'
+  NAME: '&3Tells you something.'
+  LORE:
+    - '&7Nó cho bạn biết một cái gì đó mà không cần lệnh.'
+  ID: head
+  DATA-VALUE: 3
+  POSITION-X: 1
+  POSITION-Y: 2
+
+
+a-talking-head:
+  COMMAND: 'tell: This is a simple message, without using commands!'
+  NAME: '&3Tells you something.'
+  LORE:
+    - '&7Nó cho bạn biết một cái gì đó mà không cần lệnh.'
+  ID: head
+  DATA-VALUE: 3
+  POSITION-X: 1
+  POSITION-Y: 2
+
+
+test-multiple-command:
+  COMMAND: 'console: Say Did you know that...; console: say you can run multiple commands?;'
+  NAME: '&aMultiple commands'
+  LORE:
+    - 'Ví dụ of multiple commands.'
+  ID: golden apple
+  POSITION-X: 2
+  POSITION-Y: 2
+
+
+permission:
+  COMMAND: 'tell: &a[v] You have the correct permission!'
+  NAME: '&8Kiểm tra giấy phép'
+  LORE:
+    - 'Để sử dụng mục này, bạn cần'
+    - 'cho phép "chestcommands.test".'
+    - 'Nếu không, một thông báo'
+    - 'lỗi cấu hình sẽ được hiển thị.'
+  ID: iron bar
+  POSITION-X: 3
+  POSITION-Y: 2
+  PERMISSION: chestcommands.test
+  PERMISSION-MESSAGE: 'You don''t have the correct permission!'
+
+
+menu-close-no-commands-no-lore:
+  NAME: '&6Đóng menu'
+  ID: redstone lamp
+  LORE:
+    - 'Tạo một mục không có lệnh,'
+    - 'GUI sẽ chỉ đóng lại.'
+  POSITION-X: 9
+  POSITION-Y: 3

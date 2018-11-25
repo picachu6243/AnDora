@@ -1,0 +1,29 @@
+NoPermission: '&c你没有权限执行此命令!'
+NoCommandsInConsole: '&c你不是玩家，无法执行命令!'
+ISBorder:
+  Help:
+  - '&7&m----------------&r &aIsland Border 帮助 &7&m----------------&r'
+  - '&f/ISBorder &8(&7打开设置岛屿边界的GUI&8)'
+  - '&f/ISBorder Toggle &8(&7切换边界类型&8)'
+  - '&f/ISBorder On/Off On/Off &8(&7打开/关闭 岛屿边界显示&8)'
+  - '&f/ISBorder Reload &8(&7重载 Messages & Gui&8)'
+  - '&f/ISBorder SetColor <Blue, Red, Green> &8(&7更改边界颜色&8)'
+  - '&7&m----------------------------------------------------&r'
+  Toggle:
+    'On': '&7边界已被切换'
+    'Off': '&7你移除了边界'
+  AlreadyToggledOn: '&7你已经开启了'
+  AlreadyToggledOff: '&7你已经关闭了'
+  PlaceholderAPI:
+    Activated: '&a开启'
+    Deactivated: '&c关闭'
+  Reload: '&7成功重新载入插件!'
+  NotOnIsland: '&7此命令只有在岛屿中时才可使用'
+  BorderColor:
+    Red: '&c红'
+    Green: '&a绿'
+    Blue: '&b蓝'
+    Changed: '&7Island Border 颜色已被更改!'
+    SameBorderColor: '&7你不能使用同样的颜色来修改边界!'
+    NoPermission: '&7您无权使用此边框颜色!'
+  Cooldown: '&7在再次修改边框之前，您必须等待5秒钟!'

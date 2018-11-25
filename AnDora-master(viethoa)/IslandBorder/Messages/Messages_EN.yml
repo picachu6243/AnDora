@@ -1,0 +1,29 @@
+NoPermission: '&cYou don''t have permission for this command!'
+NoCommandsInConsole: '&cCommands aren''t available in Console!'
+ISBorder:
+  Help:
+  - '&7&m----------------&r &aIsland Border Help &7&m----------------&r'
+  - '&f/ISBorder &8(&7GUI for Toggling Island Border&8)'
+  - '&f/ISBorder Toggle &8(&7Toggles the Border&8)'
+  - '&f/ISBorder On/Off &8(&7Toggles the Border On/Off&8)'
+  - '&f/ISBorder Reload &8(&7Reloads Messages & Gui&8)'
+  - '&f/ISBorder SetColor <Blue, Red, Green> &8(&7Changes the border color&8)'
+  - '&7&m----------------------------------------------------&r'
+  Toggle:
+    'On': '&7Your border was toggled'
+    'Off': '&7Your border was removed'
+  AlreadyToggledOn: '&7Your border is already toggled'
+  AlreadyToggledOff: '&7Your border is already toggled off'
+  PlaceholderAPI:
+    Activated: '&aActivated'
+    Deactivated: '&cDeactivated'
+  Reload: '&7Island Border has been reloaded successfully!'
+  NotOnIsland: '&7This command is available only on island'
+  BorderColor:
+    Red: '&cRed'
+    Green: '&aGreen'
+    Blue: '&bBlue'
+    Changed: '&7Island Border color was changed!'
+    SameBorderColor: '&7You can''t change the border color with the same color!'
+    NoPermission: '&7You don''t have permission to use this border color!'
+  Cooldown: '&7You have to wait 5 seconds before modifying your border again!'
